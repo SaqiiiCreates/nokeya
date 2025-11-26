@@ -40,3 +40,19 @@ class Program
         Console.WriteLine(output); // HELLO
     }
 }
+```
+
+---
+
+## Unit Testing
+
+
+Unit tests are written with **nUnit**. 
+
+Run all tests using:
+
+```csharp
+dotnet test
+```
+
+This will automatically build the solution and execute all test cases.
