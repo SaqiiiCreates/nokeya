@@ -51,7 +51,8 @@ Unit tests are written with **nUnit**.
 
 Run all tests using:
 
-```csharp
+```bash
+cd Nokeya.Tests
 dotnet test
 ```
 
