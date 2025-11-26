@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nokeya", "Nokeya\Nokeya.csproj", "{4A67B071-4BC2-45A5-BAC4-6D8A6E04D50E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nokeya.Tests", "Nokeya.Tests\Nokeya.Tests.csproj", "{F2BD5A0D-1278-49F7-B3E2-61C0DF020A86}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4A67B071-4BC2-45A5-BAC4-6D8A6E04D50E} = {4A67B071-4BC2-45A5-BAC4-6D8A6E04D50E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A67B071-4BC2-45A5-BAC4-6D8A6E04D50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A67B071-4BC2-45A5-BAC4-6D8A6E04D50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A67B071-4BC2-45A5-BAC4-6D8A6E04D50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A67B071-4BC2-45A5-BAC4-6D8A6E04D50E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BD5A0D-1278-49F7-B3E2-61C0DF020A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BD5A0D-1278-49F7-B3E2-61C0DF020A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BD5A0D-1278-49F7-B3E2-61C0DF020A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BD5A0D-1278-49F7-B3E2-61C0DF020A86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E40F7F80-6C85-4419-A6FF-7095DEED1812}
+	EndGlobalSection
+EndGlobal
